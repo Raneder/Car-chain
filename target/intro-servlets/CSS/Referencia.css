@@ -1,0 +1,60 @@
+.btn-action{
+    background-color: #647687;
+    color: white;
+    border: none;
+  }
+  
+  .btn-action:hover {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  
+  .btn-login {
+    padding: 8px 14px;
+    background-color: #212529;
+    color: white;
+    border: none;
+  }
+  .btn-login:hover {
+    background-color: white;
+    color: black;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.file-select {
+  background-color: #F8F9FA;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-input::before {
+  content: 'Subir Imagen';
+  background-color: #647687;
+  color: white;
+  border: none;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.custom-file-input:hover::before {
+  background-color: #E6E6E6;
+  color: black;
+}
