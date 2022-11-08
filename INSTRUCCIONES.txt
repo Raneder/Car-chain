@@ -1,0 +1,11 @@
+Para poder ejecutar el programa se debe tener instalado:
+1) Visual Studio Code: adicionalmente se deben descargar e instalar las extensiones:
+- Community Server Connectors: se debe usar el server: "Apache-Tomcat" version mas reciente.
+- Maven for Java
+2) Xampp: se debe tener encendidos los puertos de "Apache" y MySQL para poder ejecutar la base de datos y tener todos los datos de prueba.
+3) Se recomienda tener instalado el JDK-11 o superior.
+
+Pasos abrir el programa:
+1) Entrar a visual studio y abrir la carpeta con el proyecto.
+2) Ir a la carpeta "target" en el visual studio, click derecho y "run on server" para ejecutarlo en el tomcat de la Extension "Community Server Connectors"
+3) Ir a la Extension "Maven", click derecho y "package". Una vez terminado el proceso ir a "http://localhost:8080/intro-servlets"
